@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/TinotendaMawaro/globcon2/issues"
   },
-  "homepage": "https://github.com/TinotendaMawaro/globcon2#readme"
+  "homepage": "https://github.com/TinotendaMawaro/globcon2#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "vercel": "^31.0.4"
+  }
 }
