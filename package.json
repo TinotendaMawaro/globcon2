@@ -4,6 +4,7 @@
   "description": "Website",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "npm run build"
   },
   "repository": {
