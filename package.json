@@ -4,8 +4,7 @@
   "description": "Website",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "npm run build"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +16,8 @@
     "url": "https://github.com/TinotendaMawaro/globcon2/issues"
   },
   "homepage": "https://github.com/TinotendaMawaro/globcon2#readme",
-  "devDependencies": {
-    "webpack-cli": "^5.1.4"
-  },
   "dependencies": {
-    "vercel": "^31.0.4"
+    "firebase": "^8.6.8",
+    "vercel": "^24.2.4"
   }
 }
