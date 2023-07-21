@@ -1,0 +1,26 @@
+{
+  "name": "globcon2",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinotendaMawaro/globcon2.git"
+  },
+  "author": "Tinotenda Mawaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinotendaMawaro/globcon2/issues"
+  },
+  "homepage": "https://github.com/TinotendaMawaro/globcon2#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4"
+  }
+}
