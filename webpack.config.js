@@ -5,16 +5,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory for the bundled files
     filename: 'bundle.js', // Output file name
-
-    resolve: {
-        fallback: {
-          buffer: require.resolve('buffer/'),
-          path: require.resolve('path-browserify'),
-          stream: require.resolve('stream-browserify'),
-          util: require.resolve('util/'),
-          url: require.resolve('url/')
-        }
-      },
     
   },
   mode: 'development', // Set the mode to 'development' or 'production' based on your needs
