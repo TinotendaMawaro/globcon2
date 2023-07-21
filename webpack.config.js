@@ -17,7 +17,7 @@ module.exports = {
       },
     
   },
-  mode: 'production', // Set the mode to 'development' or 'production' based on your needs
+  mode: 'development', // Set the mode to 'development' or 'production' based on your needs
   // Add more Webpack configuration options here if needed
   
 };
