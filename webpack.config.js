@@ -1,4 +1,6 @@
 const path = require('path');
+const nodeExternals = require('webpack-node-externals');
+
 
 module.exports = {
   entry: './index.js', // Your entry point, typically the main JavaScript file
@@ -20,8 +22,10 @@ module.exports = {
       http: require.resolve('stream-http'),
       async_hooks: require.resolve('async_hooks'),
       child_process: false,
-      dgram: require.resolve('dgram'), // Add this line for 'dgram'
+      // dgram: require.resolve('dgram'), // Add this line for 'dgram'
       timers: require.resolve('timers-browserify'),
+      // dgram: false, // Exclude 'dgram'
+
 
     },
   },
@@ -29,12 +33,15 @@ module.exports = {
 
 
   output: {
-    path: path.resolve(__dirname, 'dist'), // Output directory for the bundled files
+    path: path.resolve(__dirname, 'public'), // Output directory for the bundled files
     filename: 'bundle.js', // Output file name
 
 
   },
   mode: 'development', // Set the mode to 'development' or 'production' based on your needs
   // Add more Webpack configuration options here if needed
+
+  externals: [nodeExternals()],
+
   
 };
