@@ -1,14 +1,9 @@
-/**
-* Template Name: Nova
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
 
 /*--------------------------------------------------------------
 # Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -250,12 +245,12 @@ section {
 }
 
 .header .logo img {
-  max-height: 200px;
-  margin-right: 6px;
+  max-height: 140px;
+  margin-right: 2px;
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   font-family: var(--font-secondary);
