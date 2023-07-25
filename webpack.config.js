@@ -26,7 +26,6 @@ module.exports = {
       timers: require.resolve('timers-browserify'),
       // dgram: false, // Exclude 'dgram'
 
-
     },
   },
 
